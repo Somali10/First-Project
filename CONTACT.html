@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact</title>
+    <style>
+        .Tool_bar{
+            background-color:  hwb(240 1% 75%);
+            height: 30px;
+            margin: 0;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .Tex{
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+        }
+        .heading{
+            width: 100%;
+            height: 500px;
+        }
+        .Topic{
+            text-align: center;
+            font-size: 24px;
+        }
+        #text{
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: justify;
+            font-size: 20px;           
+            
+        }
+        .form{            
+            padding-left: 20px;
+            padding-right: 20px;
+            Padding-Top: 10px                      
+        }
+        form{
+            border: 1px solid #aaa;
+            width: 410px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            padding-bottom: 12px;           
+            
+        }
+        #forms_text{
+            font-size: 16px;
+            padding-top: 36px;
+            padding-bottom: 12px;
+            
+            border: 0;
+            border-bottom: 1px solid #aaa;
+            width: 90%;
+            margin-left: 12px;    
+                                 
+        }
+        #submit{
+            Background-Color: hwb(240 1% 75%);
+            Padding-top: 12px;
+            padding-bottom:12px;
+            padding-left:24px;
+            padding-right:24px;
+            Font-Size: 18px;
+            Color: white;
+            Border: None;
+            margin-left: 155px;
+            margin-right: 25px;
+            margin-top: 56px;
+        }
+        Footer{
+            background-color: hwb(240 0% 86%);
+            margin-top: 100px;
+            height: 168px;
+
+        }
+        .Footer,.span{
+            color: white;
+            height: 30px;
+            margin: 0;
+            text-align: center;
+            padding-top: 60px;
+            color: white;
+            padding-right: 16px;
+            padding-right: 16px;
+            padding-bottom: 40px;
+            font-size: 16px;
+
+        }
+        </style>
+</head>
+<body style="margin: 0; background-color:rgb(213, 236, 236)">
+        <nav class="Tool_bar">
+            <span >
+                <a href="P1.html" class="Tex">TRIPS</a>
+            </span>
+            <span>
+                <a href="ABOUT.html" class="Tex">ABOUT</a>
+            </span>
+            <span>
+                <a href="CONTACT.html" class="Tex">CONTACT</a>
+            </span>
+        </nav>
+        <h1 class="Topic" style="padding-top: 24px; padding-bottom: 10px;">Wanna to come next trip? Contact Me.</h1>
+        <form action="/action_page.php" method="get">
+            <div class="form">
+                <input type="text" name = "Name"placeholder="Full Name"id="forms_text">
+            </div>
+            <div class="form">
+                <input type="email" name="Email"placeholder="Email" id="forms_text">
+            </div>
+            <div class="form">
+                <input type="number" name="age" placeholder="Contact Number"id="forms_text">
+            </div>
+            <div>
+                <input type="submit" value="submit" id="submit">
+            </div>
+        </form>
+        <footer>
+            <nav class="Footer">
+                <span class="span">
+                    TRIPS
+                </span>
+                <span class="span">
+                   ABOUT
+                </span>
+                <span class="span">
+                    CONTACT
+                </span>
+            </nav>
+
+        </footer>
+</body>
+</html>
